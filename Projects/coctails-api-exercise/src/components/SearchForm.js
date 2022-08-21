@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useGlobalContext } from '../context';
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
-  const searchValue = React.useRef('');
+  const searchValue = useRef('');
 
   React.useEffect(() => {
     searchValue.current.focus();
   }, []);
 
   const searchCocktail = () => {
+    // `current` points to the mounted text input element
     setSearchTerm(searchValue.current.value);
   };
 
