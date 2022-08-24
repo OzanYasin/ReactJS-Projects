@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useCallback, useContext, useEffect, useState } from 'react';
 
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
 
@@ -9,7 +9,8 @@ const AppProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('a');
   const [cocktails, setCocktails] = useState([]);
 
-  const fetchDrinks = async () => {
+  // useCallback means only if something changes about this function. In this case, only if searchTerm changes then create it from scratch.
+  const fetchDrinks = useCallback(async () => {
     setLoading(true);
     try {
       const response = await fetch(`${url}${searchTerm}`);
@@ -37,11 +38,11 @@ const AppProvider = ({ children }) => {
       console.log(error);
       setLoading(false);
     }
-  };
+  }, [searchTerm]); // useCallback dependency
 
   useEffect(() => {
     fetchDrinks();
-  }, [searchTerm]);
+  }, [searchTerm, fetchDrinks]); // added fetchDrinks due to eliminate dependency warning. To get rid of infinite loop (for fetchDrinks), we used useCallback on async fetchDrinks (searchTerm) hook.
 
   return (
     <AppContext.Provider value={{ loading, cocktails, setSearchTerm }}>
