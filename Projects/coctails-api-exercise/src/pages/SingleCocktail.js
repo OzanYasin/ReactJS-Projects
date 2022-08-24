@@ -19,7 +19,7 @@ const SingleCocktail = () => {
           const {
             strDrink: name,
             strDrinkThumb: image,
-            strAlchololic: info,
+            strAlcoholic: info,
             strCategory: category,
             strGlass: glass,
             strInstructions: instructions,
@@ -28,7 +28,7 @@ const SingleCocktail = () => {
             strIngredient3,
             strIngredient4,
             strIngredient5,
-          } = data.drinks[0];
+          } = data.drinks[0]; // looking for first item of the drinks array due to API
           const ingredients = [
             strIngredient1,
             strIngredient2,
