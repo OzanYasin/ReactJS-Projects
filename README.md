@@ -44,7 +44,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
 
   Funtion component based Todo App that allows users to see, add, edit, and remove todos.
 
-- ### React-Router@6 Exercise ***[Live](https://ozanyasin-homework-4.netlify.app/dogs)
+- ### React-Router@6 Exercise ***[Live](https://ozanyasin-homework-4.netlify.app/dogs)***
 
   React Router is a fully-featured client-side routing library for React, a JavaScript library for building user interfaces. React Router runs anywhere React runs.
 
