@@ -40,7 +40,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
 
   Class component based Todo App that allows users to see, add, edit, and remove todos.
 
-- ### Todo-Hooks Exercise
+- ### Todo-Hooks Exercise ***[Live](https://todo-hooks-exercise-ozan.netlify.app/)***
 
   Funtion component based Todo App that allows users to see, add, edit, and remove todos.
 
