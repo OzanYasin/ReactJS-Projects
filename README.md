@@ -55,7 +55,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
   ContextAPI exercise that contains singleItem page and search input to filter fetched data. Used react-router-dom@6 libary to switch between pages as client side. 
 
 
-- ### Redux-Toolkit Exercise ***[Live](https://redux-toolkit-exercise-ozan.netlify.app/)
+- ### Redux-Toolkit Exercise ***[Live](https://redux-toolkit-exercise-ozan.netlify.app/)***
 
   This is a very basic E-Commerce App that I made to understand fundamentals of Redux-Toolkit libary.
   
