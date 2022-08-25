@@ -67,6 +67,6 @@ Install the dependencies and devDependencies and start the app.
 
 ```
 $ git clone https://github.com/OzanYasin/ReactJS-Projects.git
-$ cd <project name >
+$ cd <project-name>
 $ npm install && npm start
 ```
