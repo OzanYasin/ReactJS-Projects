@@ -50,7 +50,10 @@ This repository contains the exercises that I made to sharpen my React.js skills
 
   This exercise is an app that allows a user to browse between different dogs (different URLs).
   
-- ### Coctails-API Exercise (will be updated)
+- ### Coctails-API Exercise ***[Live](https://cocktail-exercise.netlify.app)***
+
+  ContextAPI exercise that contains singleItem page and search input to filter fetched data. Used react-router-dom@6 libary to switch between pages as client side. 
+
 
 - ### Redux-Toolkit Exercise
 
