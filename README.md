@@ -66,7 +66,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
 Install the dependencies and devDependencies and start the app.
 
 ```
-$ git clone https://github.com/enzobrunii/React-Exercise.git
-$ npm install
-$ npm start
+$ git clone https://github.com/OzanYasin/ReactJS-Projects.git
+$ cd <project name >
+$ npm install && npm start
 ```
