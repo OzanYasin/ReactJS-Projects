@@ -36,7 +36,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
 
   In this exercise I praticed using React components and properties.
 
-- ### Todo-Class Exercise
+- ### Todo-Class Exercise ***[Live](todo-class-ozan.netlify.app)***
 
   Class component based Todo App that allows users to see, add, edit, and remove todos.
 
