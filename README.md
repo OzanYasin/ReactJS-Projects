@@ -36,23 +36,26 @@ This repository contains the exercises that I made to sharpen my React.js skills
 
   In this exercise I praticed using React components and properties.
 
-- ### Todo-Class Exercise
+- ### Todo-Class Exercise ***[Live](todo-class-ozan.netlify.app)***
 
   Class component based Todo App that allows users to see, add, edit, and remove todos.
 
-- ### Todo-Hooks Exercise
+- ### Todo-Hooks Exercise ***[Live](https://todo-hooks-exercise-ozan.netlify.app/)***
 
   Funtion component based Todo App that allows users to see, add, edit, and remove todos.
 
-- ### React-Router@6 Exercise
+- ### React-Router@6 Exercise ***[Live](https://ozanyasin-homework-4.netlify.app/dogs)***
 
   React Router is a fully-featured client-side routing library for React, a JavaScript library for building user interfaces. React Router runs anywhere React runs.
 
   This exercise is an app that allows a user to browse between different dogs (different URLs).
   
-- ### Coctails-API Exercise (will be updated)
+- ### Coctails-API Exercise ***[Live](https://cocktail-exercise.netlify.app)***
 
-- ### Redux-Toolkit Exercise
+  ContextAPI exercise that contains singleItem page and search input to filter fetched data. Used react-router-dom@6 libary to switch between pages as client side. 
+
+
+- ### Redux-Toolkit Exercise ***[Live](https://redux-toolkit-exercise-ozan.netlify.app/)***
 
   This is a very basic E-Commerce App that I made to understand fundamentals of Redux-Toolkit libary.
   
@@ -63,7 +66,7 @@ This repository contains the exercises that I made to sharpen my React.js skills
 Install the dependencies and devDependencies and start the app.
 
 ```
-$ git clone https://github.com/enzobrunii/React-Exercise.git
-$ npm install
-$ npm start
+$ git clone https://github.com/OzanYasin/ReactJS-Projects.git
+$ cd <project-name>
+$ npm install && npm start
 ```
