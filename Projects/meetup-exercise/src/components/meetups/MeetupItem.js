@@ -1,20 +1,21 @@
 import { useContext } from 'react';
+
 import Card from '../ui/Card';
 import classes from './MeetupItem.module.css';
 import FavoritesContext from '../../store/favorites-context';
 
 function MeetupItem(props) {
-  const favoriteCtx = useContext(FavoritesContext);
+  const favoritesCtx = useContext(FavoritesContext);
 
-  const itemIsFavorite = favoriteCtx.itemIsFavorite(props.id);
+  const itemIsFavorite = favoritesCtx.itemIsFavorite(props.id);
 
   function toggleFavoriteStatusHandler() {
     if (itemIsFavorite) {
-      favoriteCtx.removeFavorite(props.id);
+      favoritesCtx.removeFavorite(props.id);
     } else {
-      favoriteCtx.addFavorite({
+      favoritesCtx.addFavorite({
         id: props.id,
-        title: props.title,
+        // title: props.title,
         description: props.description,
         image: props.image,
         address: props.address,
